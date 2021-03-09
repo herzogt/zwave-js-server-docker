@@ -1,4 +1,4 @@
-FROM alpine:3.13 as base
+FROM node:alpine as base
 
 RUN apk add --no-cache \
       nodejs \
